@@ -1,7 +1,7 @@
 ---
 title: 'About'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
+preloadImg: 'assets\images\aboutBackground.jpg'
 permalink: 'about/'
 eleventyNavigation:
     key: About Us
@@ -22,55 +22,133 @@ eleventyNavigation:
     <section id="int-hero">
         <h1 id="home-h">About Us</h1>
         <picture>
-            <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-            <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-            <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
+            <source media="(max-width: 600px)" srcset="assets\images\aboutBackground.jpg"> 
+            <source media="(min-width: 601px)" srcset="assets\images\aboutBackground.jpg">
+            <img aria-hidden="true" decoding="async" src="assets\images\aboutBackground.jpg" alt="kitchen cabinets" loading="eager" width="2500" height="1667">
         </picture>
 
     </section>
 
-    <!-- ============================================ -->
-    <!--                 Side By Side                 -->
-    <!-- ============================================ -->
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
 
-    <section id="sbs">
-        <div class="cs-container">
-            <!-- Left Image Section -->
-            <div class="cs-left">
-                <picture class="cs-picture cs-picture1">
-                    <source media="(max-width: 600px)" srcset="/assets/images/cabinets2-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/cabinets2.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/cabinets2.jpg" alt="cabinets" loading="lazy" width="400" height="563">
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="assets\images\aboutMain.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="assets\images\aboutMain.jpg">
+                    <img loading="lazy" decoding="async" src="assets\images\aboutMain.jpg" alt="people" width="542" height="728">
                 </picture>
-                <picture class="cs-picture cs-picture2">
-                    <source media="(max-width: 600px)" srcset="/assets/images/construction-m.jpg">
-                    <source media="(min-width: 601px)" srcset="/assets/images/construction.jpg">
-                    <img aria-hidden="true" decoding="async" src="/assets/images/construction.jpg" alt="house" loading="lazy" width="400" height="563">
-                </picture>
-            </div>
-            <!-- Right Content Section-->
-            <div class="cs-right">
-                <span class="cs-topper">About Us</span>
-                <h2 class="cs-title">About Company Title</h2>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <p class="cs-text">
-                    In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
-                </p>
-                <div class="cs-flex-group">
-                    <p class="cs-flex-p">
-                        In consequat tincidunt turpis sit amet imperdiet. Praesent Classei consequat tincidunt turpis sit amet imperdiet for mind.
-                    </p>
-                    <span class="cs-name">Justin Time</span>
-                    <span class="cs-job">CEO-Founder</span>
-                    <img class="cs-quote-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/quote-white.svg" alt="gavel" width="136" height="77">
+                <div class="cs-box">
+                    <img class="cs-box-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/gear-white.svg" alt="people" width="60" height="60">
+                    <span class="cs-desc">
+                        Over 20 Years of Expertise
+                    </span>
                 </div>
-                <a href="/projects" class="cs-button-solid">Our Projects</a>
             </div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/trophy.svg" alt="icon" width="32" height="32">
+                        Safety Priority
+                    </h3>
+                    <p class="cs-item-text">
+                        Committed to top-tier safety standards on every project.
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/circle-check.svg" alt="icon" width="32" height="32">
+                        On-Time Promise
+                    </h3>
+                    <p class="cs-item-text">
+                        We deliver on time, every time, for your construction needs.
+                    </p>
+                </li>
+            </ul>
         </div>
-    </section>
+        <div class="cs-content">
+            <h1 class="cs-title">About <span class="cs-color">Elite Construction</span></h1>
+            <p>
+                Discover Elite Construction, your premier choice for top-quality commercial construction services in the UK. With over 22 years of industry expertise, Elite Construction has earned a solid reputation for excellence, reliability, and client satisfaction in the construction sector.
+            </p>
+            <h2>Our Core Values</h2>
+            <p>
+                At Elite Construction, our success is rooted in our unwavering commitment to core values that set us apart:
+            </p>
+            <ul>
+                <li>Quality Craftsmanship: Our dedication to precision and attention to detail ensures superior construction outcomes.</li>
+                <li>Customer-Centric Approach: We prioritize your needs and tailor our solutions for optimal project satisfaction.</li>
+                <li>Expertise and Experience: With 22 years of experience, our seasoned professionals bring unmatched knowledge to every project.</li>
+                <li>Sustainability: Elite Construction is a leader in eco-friendly construction practices, minimizing environmental impact.</li>
+            </ul>
+            <h3>Our Journey and Success Stories</h3>
+            <p>
+              Elite Construction embarked on its journey in the early 2000s, founded by a group of passionate construction experts. Our extensive portfolio showcases successful completion of diverse commercial construction projects, earning the trust of clients nationwide.
+            </p>
+            <h4>Contact Us</h4>
+            <p>
+              Partner with Elite Construction on your upcoming construction project. Whether it's a new development, renovation, or specialized construction service, our team is ready to turn your vision into reality. <a href="">Contact us</a> today to discuss how Elite Construction can enhance your project's success.
+            </p>
+        </div>
+    </div>
+</section>
 
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-1021">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Meet Our Team</h2>
+            <p class="cs-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef1.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">James Anderson</span>
+                    <span class="cs-job">Project Manager</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef2.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">John Reynolds</span>
+                    <span class="cs-job">Senior Construction Engineer</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
+                    <source media="(min-width: 768px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/chef3.jpg" alt="chef" width="305" height="335">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Emily Clarke</span>
+                    <span class="cs-job">Marketing and Communications Director</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
     {% include 'components/cta.html' %}
 
 {% endblock %}
