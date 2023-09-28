@@ -1,19 +1,145 @@
 ---
 title: 'Services'
 description: 'Meta description for the page'
-preloadImg: '/assets/images/cabinets2.jpg'
-permalink: 'services'
+preloadImg: '/assets\images\aboutBackground.jpg'
+permalink: 'services/'
 eleventyNavigation:
     key: Services
     order: 300
 ---
 
 {% extends "layouts/base.html" %}
-    <link rel="stylesheet" href="/assets/css/services.css">
+    
 {% block head %}
-    <!-- Any page-specific tags that belong in the <head>, such as a page-specific stylesheet -->
+    <link rel="stylesheet" href="/assets/css/services.css">
 {% endblock %}
 
 {% block body %}
-    <!-- Page HTML goes here, without a <main> wrapper -->
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">Our Services</h1>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets\images\aboutBackground.jpg">
+            <source media="(min-width: 601px)" srcset="/assets\images\aboutBackground.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets\images\aboutBackground.jpg" alt="new home" width="2500" height="1667" loading="eager">
+        </picture>
+    </section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-1083">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Your Vision, Our Expertise: Explore Our Services</h2>
+            <p class="cs-text">
+                Welcome to Elite Construction, with 20+ years of experience. We specialize in office transformations, retail space construction, and more. Our commitment to quality, efficiency, and client satisfaction sets us apart. Explore our services and let's bring your vision to life.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\office.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\office.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\office.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="\assets\svgs\office.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Office Fit-Outs
+                </h3>
+                <p class="cs-item-text">
+                    Transform your workspace with our tailored office fit-out solutions. Boost productivity and aesthetics for your business.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\retail.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\retail.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\retail.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/retail.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Retail Space Construction
+                </h3>
+                <p class="cs-item-text">
+                    Create captivating retail environments with our expertise in retail space construction. Maximize foot traffic and sales.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\redesign.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\redesign.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\redesign.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="\assets\svgs\commercial.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Commercial Renovations
+                </h3>
+                <p class="cs-item-text">
+                    Enhance your commercial property's functionality and appeal through our renovation services. Elevate your business space.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\warehouse.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\warehouse.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\warehouse.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="\assets\svgs\warehouse.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Warehouse Construction
+                </h3>
+                <p class="cs-item-text">
+                    Efficiently expand your storage capacity with our warehouse construction. Customized solutions for optimal logistics.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\hotel.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\hotel.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\hotel.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="/assets/svgs/leisure.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Hotel and Hospitality Projects
+                </h3>
+                <p class="cs-item-text">
+                    Deliver exceptional guest experiences with our hotel and hospitality construction services. Luxury meets functionality.
+                </p>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets\images\school.jpg">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets\images\school.jpg">
+                    <img loading="lazy" decoding="async" src="/assets\images\school.jpg" alt="mechanic" width="413" height="240" aria-hidden="true">
+                </picture>
+                <h3 class="cs-h3">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="\assets\svgs\school.svg" alt="icon" width="32" height="32" aria-hidden="true">
+                    Educational Facility Construction
+                </h3>
+                <p class="cs-item-text">
+                    Invest in the future with our educational facility construction. Provide students with inspiring learning environments.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    {% include 'components/cta.html' %}          
 {% endblock %}

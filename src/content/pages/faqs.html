@@ -1,0 +1,127 @@
+---
+title: 'FAQs'
+description: 'Meta description for the page'
+preloadImg: '/assets/images/cabinets2.jpg'
+permalink: 'faqs/'
+eleventyNavigation:
+    key: FAQs
+    order: 400
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/faqs.css">
+    <script defer src="/assets/js/faq.js"></script>
+{% endblock %}
+
+{% block body %}
+
+    <!-- ============================================ -->
+    <!--                    LANDING                   -->
+    <!-- ============================================ -->
+
+    <section id="int-hero">
+        <h1 id="home-h">FAQs</h1>
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)" srcset="/assets/images/landing-m.webp">
+            <source media="(min-width: 601px)" srcset="/assets/images/landing.jpg">
+            <img aria-hidden="true" decoding="async" src="/assets/images/landing.jpg" alt="new home" width="2500" height="1667" loading="eager">
+        </picture>
+    </section>
+
+<!-- ============================================ -->
+<!--                     FAQ                      -->
+<!-- ============================================ -->
+
+<section id="faq-1142">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h2 class="cs-title">Our Most Frequently Asked Questions</h2>
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What services does Elite Construction offer?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Elite Construction provides a wide range of commercial construction services, including general contracting, design-build, project management, and <a href="">more</a>.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Can Elite Construction handle both small and large-scale projects?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Absolutely! We have experience in projects of all sizes, from small renovations and fit-outs to large-scale construction ventures.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How can I request a quote for a construction project?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        To request a quote or discuss your project, you can <a href="">contact our team</a> through our website's contact form, or you can call our office directly.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you offer sustainable construction options?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Yes, Elite Construction is dedicated to sustainable building practices. We can incorporate eco-friendly solutions into your project to meet environmental goals.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity4.svg" alt="icon" width="48" height="48">
+                    <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-shape.svg" alt="graphic" width="100" height="103">
+                </div>
+                <h3 class="cs-number">22 Years</h3>
+                <span class="cs-desc">Experience</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity5.svg" alt="icon" width="48" height="48">
+                    <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-shape.svg" alt="graphic" width="100" height="103">
+                </div>
+                <h3 class="cs-number">300+</h3>
+                <span class="cs-desc">Commercial Projects</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity6.svg" alt="icon" width="48" height="48">
+                    <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-shape.svg" alt="graphic" width="100" height="103">
+                </div>
+                <h3 class="cs-number">98%</h3>
+                <span class="cs-desc">Client Satisfaction Rate</span>
+            </li>
+            <li class="cs-item">
+                <div class="cs-image-group">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity7.svg" alt="icon" width="48" height="48">
+                    <img class="cs-graphic" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/charity-shape.svg" alt="graphic" width="100" height="103">
+                </div>
+                <h3 class="cs-number">90%</h3>
+                <span class="cs-desc">On-Time Project Delivery</span>
+            </li>
+        </ul>
+    </div>
+    <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-graphic.svg" alt="graphic" width="271" height="293" aria-hidden="true">
+</section>
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}
