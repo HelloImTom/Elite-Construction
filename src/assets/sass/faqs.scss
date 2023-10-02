@@ -214,6 +214,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            filter: invert(48%) sepia(34%) saturate(2755%) hue-rotate(3deg) brightness(106%) contrast(106%);
         }
 
         .cs-graphic {

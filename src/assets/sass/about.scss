@@ -273,6 +273,7 @@
             width: calc(32 / 16 * 1rem);
             height: auto;
             display: block;
+            filter: invert(48%) sepia(34%) saturate(2755%) hue-rotate(3deg) brightness(106%) contrast(106%);
         }
 
         .cs-item-text {
