@@ -1,10 +1,10 @@
 ---
-title: "The Future of Commercial Construction with Robotics and Automation"
+title: The Future of Commercial Construction with Robotics and Automation
 description: Explore how Elite Construction is embracing cutting-edge robotics
   and automation technologies to revolutionize the commercial construction
   industry.
 author: Emily Clarke
-date: 2023-10-02T12:41:41.150Z
+date: 2023-10-02T09:54:46.472Z
 tags:
   - Robotics
   - Automation
